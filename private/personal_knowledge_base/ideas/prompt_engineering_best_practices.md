@@ -36,7 +36,7 @@
 参考: [Anthropic Claude - プロンプトエンジニアリングの概要](https://docs.anthropic.com/ja/docs/build-with-claude/prompt-engineering/overview)
 
 ## 4. 対話の進め方
-
+とりあえずこれだけ守っていれば、そんなに回答制度が落ちることは無くなると思います。
 - **一度にすべてを送らない (段階的指示)**:
     - 情報を小分けにして送信することで、AIの文脈理解を助ける。
     - 意図のズレを早期に発見し、対話の途中で方向修正しやすくなる。
