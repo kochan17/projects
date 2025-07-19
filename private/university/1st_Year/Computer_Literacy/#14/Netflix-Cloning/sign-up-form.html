@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflex 新規登録ページ</title>
+    <link rel="stylesheet" href="css/sign-up-form.css">
+
+    <script src="https://kit.fontawesome.com/0971a59bcd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="flex">
+                <div class="logo">
+                    <a href="index.html">
+                        NETFLEX Clone
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="main-container flex">
+                    <h1>新規登録</h1>
+                    <form action="" method="get">
+                        <div class="form-control">
+                            <input type="text" autocomplete="name" id="fullname" class="flex" name="fullname" required>
+                            <label>氏名</label>
+                            <span id="error-fullname" class="form-error-text">
+                                氏名を入力してください。
+                            </span>
+                        </div>
+                        <div class="form-control">
+                            <input type="email" autocomplete="email" id="email" class="flex" name="email" required>
+                            <label>メールアドレス</label>
+                            <span id="error-email" class="form-error-text">
+                                有効なメールアドレスを入力してください。
+                            </span>
+                        </div>
+                        <div class="form-control">
+                            <input type="password" autocomplete="new-password" id="password" name="password" class="flex" required>
+                            <label>パスワード</label>
+                            <span id="error-password" class="form-error-text">
+                                パスワードは6文字以上で入力してください。
+                            </span>
+                        </div>
+                        <div class="form-control">
+                            <input type="password" autocomplete="new-password" id="confirm-password" name="confirm-password" class="flex" required>
+                            <label>パスワード（確認）</label>
+                            <span id="error-confirm-password" class="form-error-text">
+                                パスワードが一致しません。
+                            </span>
+                        </div>
+                        <div class="form-control-formbtn">
+                            <input type="submit" class="flex" value="新規登録">
+                        </div>
+                        <div class="support flex">
+                            <div>
+                                <span><input type="checkbox" required></span>利用規約とプライバシーポリシーに同意する
+                            </div>
+                        </div>
+                    </form>
+                    <div class="main-footer">
+                        <div class="login-facebook-main-footer">
+                            <a href=""><i class="fab fa-facebook-square"></i>Facebookアカウントで登録</a>
+                        </div>
+                        <div class="existing-user-main-footer">
+                            <p>既にアカウントをお持ちですか？<a href="sign-in-form.html">サインイン</a></p>
+                        </div>
+                        <div class="learn-more-main-footer">
+                            <p>このページはGoogle reCAPTCHAによって保護されており、botでないことを確認しています。<span class="read-more" id="read-more">
+                                Google reCAPTCHAによって収集された情報は、Googleのプライバシーポリシーおよび利用規約の対象となり、reCAPTCHAサービスの提供、維持、改善、および一般的なセキュリティ目的で使用されます (Googleによるパーソナライズド広告には使用されません)。
+                            </span><button href="" id="readBtn">詳細はこちら</button></p>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>ご質問がありますか？電話でのお問い合わせ: 000-123-456-7890</p>
+            <div class="grid-container">
+                <div class="grid-list flex">
+                    <a href="">よくあるご質問</a>
+                    <a href="">クッキー設定</a>
+                </div>
+                <div class="grid-list flex">
+                    <a href="">ヘルプセンター</a>
+                    <a href="">会社情報</a>
+                </div>
+                <div class="grid-list flex">
+
+                    <a href="">利用規約</a>
+                </div>
+                <div class="grid-list flex">
+                    <a href="">プライバシー</a>
+
+                </div>
+            </div>
+            <div class="dropdown-container">
+                <button class="lang-btn"><i class="fas fa-globe"></i>  日本語 <i class="fas fa-angle-down"></i></button>
+                <ul class="language-dropdown">
+                    <li onclick="switchLanguage('ja')">日本語</li>
+                    <li onclick="switchLanguage('en')">English</li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/language-switch.js"></script>
+    <script src="js/signup-validation.js"></script>
+</body>
+
+</html> 

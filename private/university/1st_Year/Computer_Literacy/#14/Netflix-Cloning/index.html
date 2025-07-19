@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone ホームページ</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/0971a59bcd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav flex">
+                <div class="logo">NETFLIX Clone</div>
+                <div class="nav-btns flex">
+                    <div class="dropdown-container">
+                        <button class="lang-btn"><i class="fas fa-globe"></i> English <i class="fas fa-angle-down"></i></button>
+                        <ul class="language-dropdown">
+                            <li onclick="switchLanguage('en')">English</li>
+                            <li onclick="switchLanguage('ja')">日本語</li>
+                        </ul>
+                    </div>
+                    <a href="sign-in-form.html" class="sign-in-btn">サインイン</a>
+                </div>
+            </nav>
+            <div class="intro flex">
+                <h1>映画やTV番組、その他 <br>すべてがここに。</h1>
+                <p class="intro-main-text">どこでも観られます。いつでもキャンセルOK。</p>
+                <p class="intro-sub-text">ご視聴準備OKですか？メンバーシップの作成または再開のためにメールアドレスを入力してください。</p>
+                <div class="intro-flex">
+                    <input type="email" name="email" class="intro-email" placeholder="メールアドレス">
+                    <button class="intro-btn" type="submit" onclick="window.location.href='sign-up-form.html'">始める <i class="fas fa-angle-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="section-1">
+
+            <div class="container">
+                <div class="grid-container">
+                    <div class="grid-text">
+                        <h2>テレビで楽しむ。</h2>
+                        <p>スマートテレビ、PlayStation、Xbox、Chromecast、Apple TV、Blu-rayプレーヤーなど、さまざまな機器で視聴できます。</p>
+                    </div>
+                    <div class="grid-img video-bg-tv">
+                        <img src="images/tv.png" alt="Netflixを映しているテレビ">
+
+                        <video src="images/video-tv-in-0819.m4v" controls preload="true" autoplay loop muted></video>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section-2">
+
+            <div class="container">
+                <div class="grid-container">
+                    <div class="grid-img mobile-order-prop">
+                        <img src="images/mobile.jpg" alt="携帯電話を持つ女性の画像">
+                        <div class="sec-2-download-box flex">
+                            <div class="download-series flex">
+
+                                <img class="series-poster-img" src="images/boxshot.png" alt="あるウェブシリーズのポスター">
+                                <div class="download-box-flex">
+                                    <p>ストレンジャー・シングス</p>
+                                    <p class="blue-text">ダウンロード中...</p>
+                                </div>
+                            </div>
+                            <button><i class="fas fa-download"></i></button>
+                        </div>
+                    </div>
+                    <div class="grid-text">
+                        <h2>お気に入りの番組をダウンロードしてオフラインで視聴。</h2>
+                        <p>お気に入りを簡単に保存して、いつでも観たいものを見つけられます。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-3">
+
+            <div class="container">
+                <div class="grid-container">
+                    <div class="grid-text">
+                        <h2>どこでも観られる。</h2>
+                        <p>スマートフォン、タブレット、ノートパソコン、テレビで、無制限の映画やTV番組をストリーミングできます。</p>
+                    </div>
+                    <div class="grid-img">
+                        <img src="images/device-pile-in.png" alt="Netflixを再生している3つの異なる電子機器">
+
+                        <video src="images/video-devices-in.m4v" controls preload="true" autoplay loop muted></video>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section-4">
+
+            <div class="container">
+                <div class="grid-container">
+                    <div class="grid-img video-bg-tv mobile-order-prop">
+                        <img src="images/Kids.png" alt="子供2人とアニメのキャラクター">
+                    </div>
+                    <div class="grid-text">
+                        <h2>お子様用プロフィールを作成。</h2>
+                        <p>メンバーシップに含まれるお子様向けのスペースで、お子様をお気に入りのキャラクターとの冒険に送り出しましょう。</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section-5">
+            <div class="container">
+                <h3>よくある質問</h3>
+                <div class="faq flex">
+                    <div class="q-1">
+                        <div class="question flex">
+                            <p>Netflixとは何ですか？</p>
+                            <button class="show-toggle-btn"><i class="fas fa-plus icons"></i></button>
+                        </div>
+                        <div class="show-hide">
+                            <p>Netflixは、数千ものインターネット接続デバイスで、数々の受賞歴を持つTV番組、映画、アニメ、ドキュメンタリーなど、幅広いコンテンツを提供するストリーミングサービスです。</p>
+                            <p>広告なしで、いつでも好きなだけ視聴できます。すべて月額定額料金で。常に新しい発見があり、新しいTV番組や映画が毎週追加されます！</p>
+                        </div>
+                    </div>
+                    <div class="q-1">
+                        <div class="question flex">
+                            <p>Netflixの料金はいくらですか？</p>
+                            <button class="show-toggle-btn"><i class="fas fa-plus icons"></i></button>
+                        </div>
+                        <div class="show-hide">
+                            <p>スマートフォン、タブレット、スマートテレビ、ノートパソコン、ストリーミングデバイスでNetflixを視聴できます。すべて月額定額料金です。プランは月額149ルピーから649ルピーまでです。追加料金なし、契約期間なし。</p>
+                        </div>
+                    </div>
+                    <div class="q-1">
+                        <div class="question flex">
+                            <p>どこで視聴できますか？</p>
+                            <button class="show-toggle-btn"><i class="fas fa-plus icons"></i></button>
+                        </div>
+                        <div class="show-hide">
+                            <p>どこでも、いつでも視聴できます。Netflixアカウントでサインインして、PCのnetflix.comで、またはスマートテレビ、スマートフォン、タブレット、ストリーミングメディアプレーヤー、ゲーム機など、Netflixアプリを提供するインターネット接続デバイスで、すぐに視聴できます。</p>
+                            <p>iOS、Android、Windows 10アプリを使ってお気に入りの番組をダウンロードすることもできます。ダウンロードを利用すれば、移動中でもインターネット接続なしで視聴できます。Netflixをどこへでも持ち運びましょう。</p>
+                        </div>
+                    </div>
+                    <div class="q-1">
+                        <div class="question flex">
+                            <p>どうやってキャンセルするのですか？</p>
+                            <button class="show-toggle-btn"><i class="fas fa-plus icons"></i></button>
+                        </div>
+                        <div class="show-hide">
+                            <p>Netflixは煩わしい契約や縛りはありません。アカウントはオンラインで2クリックで簡単にキャンセルできます。キャンセル料はかかりません。いつでもアカウントを開始または停止できます。</p>
+                        </div>
+                    </div>
+                    <div class="q-1">
+                        <div class="question flex">
+                            <p>Netflixで何が観られますか？</p>
+                            <button class="show-toggle-btn"><i class="fas fa-plus icons"></i></button>
+                        </div>
+                        <div class="show-hide">
+                            <p>Netflixには、長編映画、ドキュメンタリー、TV番組、アニメ、受賞歴のあるNetflixオリジナルなど、幅広いライブラリがあります。いつでも好きなだけ視聴できます。</p>
+                        </div>
+                    </div>
+                    <div class="q-1">
+                        <div class="question flex">
+                            <p>Netflixは子供に適していますか？</p>
+                            <button class="show-toggle-btn"><i class="fas fa-plus icons"></i></button>
+                        </div>
+                        <div class="show-hide">
+                            <p>Netflixキッズ体験は、保護者の方がお子様向けのTV番組や映画を専用スペースで楽しめるように、メンバーシップに含まれています。</p>
+                            <p>キッズプロフィールには、お子様が視聴できるコンテンツの年齢制限を設定したり、見せたくない特定のタイトルをブロックしたりできるPIN保護されたペアレンタルコントロールが付属しています。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec-5-email">
+
+                    <p class="intro-sub-text">ご視聴準備OKですか？メンバーシップの作成または再開のためにメールアドレスを入力してください。</p>
+                    <div class="intro-flex">
+                        <input type="email" name="email" class="intro-email" placeholder="メールアドレス">
+                        <button class="intro-btn" type="submit" onclick="window.location.href='sign-up-form.html'">始める <i class="fas fa-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <p>ご質問は example@example.com までお問い合わせください</p>
+                <div class="grid-container">
+                    <div class="grid-list flex">
+                        <a href="">よくある質問</a>
+                        <a href="">投資家向け広報</a>
+                        <a href="">プライバシー</a>
+                        <a href="">スピードテスト</a>
+                    </div>
+                    <div class="grid-list flex">
+                        <a href="">ヘルプセンター</a>
+                        <a href="">採用情報</a>
+                        <a href="">クッキーの設定</a>
+                        <a href="">法的通知</a>
+                    </div>
+                    <div class="grid-list flex">
+                        <a href="">アカウント</a>
+                        <a href="">視聴方法</a>
+                        <a href="">企業情報</a>
+                        <a href="">Netflixオリジナル作品</a>
+                    </div>
+                    <div class="grid-list flex">
+                        <a href="">メディアセンター</a>
+                        <a href="">利用規約</a>
+                        <a href="">お問い合わせ</a>
+                    </div>
+                </div>
+                <div class="dropdown-container">
+                    <button class="lang-btn"><i class="fas fa-globe"></i> English <i class="fas fa-angle-down"></i></button>
+                                    <ul class="language-dropdown">
+                    <li onclick="switchLanguage('en')">English</li>
+                    <li onclick="switchLanguage('ja')">日本語</li>
+                </ul>
+                </div>
+                <p>Netflix JP</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="js/language-switch.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
