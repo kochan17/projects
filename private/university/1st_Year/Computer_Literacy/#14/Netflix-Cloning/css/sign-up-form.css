@@ -93,7 +93,7 @@ body {
     color: var(--text-clr);
     line-height: 1.3;
     word-break: normal;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/background\ img.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background\ img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -264,7 +264,7 @@ input[type=checkbox]:checked {
 footer {
     background-color: rgba(0, 0, 0, 0.8);
     padding: 3em 5em;
-    color: #555454;
+    color: var(--text-clr);
     width: 100%;
     margin-top: 3em;
 }
@@ -281,7 +281,7 @@ footer .grid-container {
 }
 
 .grid-list a {
-    color: #555454;
+    color: var(--text-clr);
     font-size: 0.8rem;
     align-self: flex-start;
 }
