@@ -5,7 +5,6 @@
 #### SNS・連絡先
 - [X](https://x.com/uni_on_tw)
 - [instagram]（準備中）
-- [GitHub]（準備中）
 - [Discord]（準備中）
 - [note]（準備中）
 
