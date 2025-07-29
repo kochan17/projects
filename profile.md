@@ -3,7 +3,7 @@
 1999年10月17日生まれ。新潟県出身。
 
 #### SNS・連絡先
-- [Twitter]（準備中）
+- [X](https://x.com/uni_on_tw)
 - [instagram]（準備中）
 - [GitHub]（準備中）
 - [Discord]（準備中）
